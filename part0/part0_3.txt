@@ -1,0 +1,9 @@
+title part0.3
+
+browser->server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note left of browser: My New Note
+note over browser: send the a request with POST request and "My new note" content in na body
+
+server -->browser:(HTTP 200 Created) https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of server: the above request is a response from a server that our note is created
+

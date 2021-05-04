@@ -1,0 +1,16 @@
+title part0.1
+
+browser->server:POST https://studies.cs.helsinki.fi/exampleapp/new_note
+note left of browser: Hey, This is a new Note.
+
+server -->browser: (Response 304) https://studies.cs.helsinki.fi/exampleapp/new_note
+note right of  server: Server respond with this request
+
+browser->server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+
+note left of browser: send a get request to the above request
+
+server-->browser: Response https://studies.cs.helsinki.fi/exampleapp/notes
+note right of server: server responsed with the submitted notes and data.json
+server->browser: 200K https://studies.cs.helsinki.fi/exampleapp/data.json
+

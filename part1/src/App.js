@@ -1,11 +1,20 @@
 import './App.css';
 import React from 'react'
 
-class App extends React.Component {
-  render ()
-  {
-    return <h1>Hello, Abid Gul Shahid You made it to the React APP </h1>
-  }
+const Hello = (props) => {
+  return <h1>Hello From {props.name}</h1>
+}
+
+const App = () => {
+
+
+  return (
+  <div>
+ 
+    <Hello name='Abid' />
+    <Hello name='Khan' />
+  </div>
+  )
 }
 
 export default App;

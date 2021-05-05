@@ -1,10 +1,11 @@
 import React from 'react'
-
+import Header from './Header.js'
+import Content from './Content'
 const Hello = (props) => {
   return <h1>Hello From {props.name}</h1>
 }
 
-const App = () => {
+const Header = () => {
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
   const exercises1 = 10
@@ -12,20 +13,15 @@ const App = () => {
   const exercises2 = 7
   const part3 = 'State of a component'
   const exercises3 = 14
+}
+
+
+
+const App = () => {
 
   return (
     <div>
-      <h1>{course}</h1>
-      <p>
-        {part1} {exercises1}
-      </p>
-      <p>
-        {part2} {exercises2}
-      </p>
-      <p>
-        {part3} {exercises3}
-      </p>
-      <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
+      <Header course={Content} />
     </div>
   )
 }

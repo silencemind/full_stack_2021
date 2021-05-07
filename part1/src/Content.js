@@ -1,5 +1,5 @@
 const Content = () => {
-    <h1>{course}</h1>
+    <h1>ERROR</h1>
 
 }
 

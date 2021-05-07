@@ -1,9 +1,6 @@
 import React from 'react'
-import Header from './Header.js'
-import Content from './Content'
-const Hello = (props) => {
-  return <h1>Hello From {props.name}</h1>
-}
+
+
 
 const Header = () => {
   const course = 'Half Stack application development'
@@ -14,6 +11,7 @@ const Header = () => {
   const part3 = 'State of a component'
   const exercises3 = 14
 }
+
 
 
 

@@ -2,12 +2,14 @@ import React from 'react'
 
 
 
-const Header = () => {
-  const course = 'Half Stack application development'
+const Header = (props) => {
+
+  const course =<h1> ASDASDSASD {props.course}</h1>
 
 }
 
-const Content = () =>     {
+
+const Content = (props) =>     {
   const part1 = 'Fundamentals of React'
   const exercises1 = 10
   const part2 = 'Using props to pass data'
@@ -16,6 +18,11 @@ const Content = () =>     {
   const exercises3 = 14
 }
 
+
+const Total = (props) => 
+{
+  const total = ''
+}
 const App = () => {
 
   return (

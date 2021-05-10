@@ -27,6 +27,8 @@ t.forEach(value =>{
 })
 
 
-t2 = t.concat(7);
+
+
+t2 = t.concat(7);  // Concat make a new array and add data to it
 console.log(t)
 console.log(t2)

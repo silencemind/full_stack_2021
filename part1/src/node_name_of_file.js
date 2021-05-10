@@ -37,5 +37,13 @@ console.log(t2)
 console.log("MAP")
 t3 = [1,2,3]
 const m1 = t3.map(values => values* 2)
+const m2 = t3.map(values => '<l1>'+ values +'</li>')
+
 console.log(m1)
+console.log(m2)
 console.log(t3)
+
+t4 = [1,2,3,4,5,6,7,8]
+const [first,second,third, ... rest] =t4
+console.log(first,second,third)
+console.log(rest)

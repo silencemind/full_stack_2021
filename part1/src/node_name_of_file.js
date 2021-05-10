@@ -32,3 +32,10 @@ t.forEach(value =>{
 t2 = t.concat(7);  // Concat make a new array and add data to it
 console.log(t)
 console.log(t2)
+
+
+console.log("MAP")
+t3 = [1,2,3]
+const m1 = t3.map(values => values* 2)
+console.log(m1)
+console.log(t3)

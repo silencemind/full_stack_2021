@@ -3,8 +3,12 @@ import React from 'react'
 
 
 const Header = (props) => {
-
-  const course =<h1> ASDASDSASD {props.course}</h1>
+  console.log(props);
+  return (
+        <div>
+          
+        </div>
+  )
 
 }
 

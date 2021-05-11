@@ -69,3 +69,10 @@ const object1 = {
     grades: [2, 3, 5, 3],
     department: 'Stanford University',
   }
+
+  console.log('\n\n\n\n OBJECTs');
+
+  console.log(object3)
+
+  const fieldName = 'age'
+  console.log(object1[fieldName])

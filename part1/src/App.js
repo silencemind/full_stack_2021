@@ -21,7 +21,7 @@ console.log(props)
       <h2>{props.part2}: {props.exercises2}</h2>
       <h2>{props.part3}: {props.exercises3}</h2> */}
     </div>
-  )
+  ) 
  
 }
 
@@ -84,9 +84,3 @@ const App = () => {
 export default App;
 
 
-./////
-
-//////////
-
-sfdfsdfsd
-as

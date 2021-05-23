@@ -32,7 +32,7 @@ const Total = (props) =>
   return (
     <div>
       <h3>
-        {/* Total Exercises: {props.total} */}
+        Total Exercises: {props.part[0]['exercises'] + props.part[1]['exercises'] + props.part[2]['exercises']}
       </h3>
       </div>
   )
@@ -59,10 +59,9 @@ const App = () => {
       <Header course={course} />
 
       <Content part={parts}></Content>
+      <Total part={parts}></Total>
     </div>
   )
 }
 
 export default App;
-
-
